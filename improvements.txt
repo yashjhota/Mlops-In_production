@@ -1,0 +1,14 @@
+1 data from database 
+2 try except blocks for all files
+3 large dataset which need cleansing or preprocessing or imputation other things rename columns ,pca
+4 train.py use for loop with multiple models log therm all use best for production purpose
+5 evalute Don’t stop at a single accuracy number – 
+    add precision/recall, confidence intervals, fairness checks, and latency profiling.
+6 pipeline.py implements logging and in all files as well instead of using print statements.
+
+
+
+---DOCKEr
+docker build -t mlops-mini .   --build containeer
+docker run -p 8000:8000 mlops-mini   --run api
+docker run mlops-mini python src/pipeline.py  --build pipeline
